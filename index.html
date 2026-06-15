@@ -87,6 +87,21 @@
             -ms-overflow-style: none; /* IE and Edge */
             scrollbar-width: none; /* Firefox */
         }
+        .form-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background-color: #F8F9FA;
+            border: 1px solid #E5E7EB;
+            color: #0A1128;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .form-input:focus {
+            border-color: #0055FF;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 0 3px rgba(0, 85, 255, 0.1);
+        }
     </style>
 </head>
 <body class="bg-offwhite text-navy font-body overflow-x-hidden selection:bg-electric selection:text-white">
@@ -151,7 +166,7 @@
                 </p>
                 <div class="hero-elem flex flex-col sm:flex-row gap-4 pt-4">
                     <a href="#contact" class="btn-primary bg-electric text-white px-8 py-4 font-display font-bold uppercase tracking-wider text-sm flex items-center justify-center gap-2 hover:bg-blue-600">
-                        Get Started <i class="ph ph-arrow-right text-lg"></i>
+                        Book a Consultation <i class="ph ph-arrow-right text-lg"></i>
                     </a>
                     <a href="#careers" class="px-8 py-4 border border-white text-white font-display font-bold uppercase tracking-wider text-sm flex items-center justify-center hover:bg-white hover:text-navy transition-all">
                         Join Our Team
@@ -168,8 +183,8 @@
                     <!-- Decorative UI Elements -->
                     <div class="absolute bottom-6 left-6 right-6 bg-navy/80 backdrop-blur-md border border-white/10 p-4 flex justify-between items-center">
                         <div>
-                            <p class="text-gray-400 text-xs font-mono mb-1">Q4 Acquisition Target</p>
-                            <p class="text-white font-display font-bold text-xl">142% Exceeded</p>
+                            <p class="text-gray-400 text-xs font-mono mb-1">Q1 2026 customer acquisition performance</p>
+                            <p class="text-white font-display font-bold text-xl">1,465 accounts — 142% of target</p>
                         </div>
                         <div class="w-12 h-12 rounded-full border-2 border-electric flex items-center justify-center text-electric">
                             <i class="ph ph-trend-up text-xl"></i>
@@ -212,7 +227,7 @@
                     <div class="gsap-fade-up border border-gray-100 p-8 bg-offwhite hover:bg-white hover:shadow-premium transition-all">
                         <i class="ph ph-rocket-launch text-4xl text-electric mb-6 block"></i>
                         <h3 class="font-display font-bold text-xl text-navy mb-3">Growth Focused</h3>
-                        <p class="text-sm text-gray-500 font-medium">Scaling aggressive, sustainable campaigns tailored for market expansion.</p>
+                        <p class="text-sm text-gray-500 font-medium">Performance-based culture that allows internal growth for our sales representatives.</p>
                     </div>
                 </div>
             </div>
@@ -250,7 +265,7 @@
                         <i class="ph ph-user-plus"></i>
                     </div>
                     <h3 class="font-display font-bold text-2xl text-navy mb-4">Customer Acquisition</h3>
-                    <p class="text-gray-600 mb-8 flex-grow">Direct pipelines designed to acquire high-value customers at scale.</p>
+                    <p class="text-gray-600 mb-8 flex-grow">Direct sales to bring direct results with integrity, volume and predictability.</p>
                     <div class="w-full h-px bg-gray-100 mb-4 group-hover:bg-electric/20 transition-colors"></div>
                     <span class="font-mono text-sm font-bold text-electric uppercase tracking-wider flex items-center gap-2">
                         Learn More <i class="ph ph-arrow-right group-hover:translate-x-2 transition-transform"></i>
@@ -263,7 +278,7 @@
                         <i class="ph ph-megaphone"></i>
                     </div>
                     <h3 class="font-display font-bold text-2xl text-navy mb-4">Brand Awareness</h3>
-                    <p class="text-gray-600 mb-8 flex-grow">Elevating market presence through strategic positioning and aggressive outreach.</p>
+                    <p class="text-gray-600 mb-8 flex-grow">Face-to-face approach to build exceptional and long lasting customer relationships.</p>
                     <div class="w-full h-px bg-gray-100 mb-4 group-hover:bg-electric/20 transition-colors"></div>
                     <span class="font-mono text-sm font-bold text-electric uppercase tracking-wider flex items-center gap-2">
                         Learn More <i class="ph ph-arrow-right group-hover:translate-x-2 transition-transform"></i>
@@ -276,7 +291,7 @@
                         <i class="ph ph-handshake"></i>
                     </div>
                     <h3 class="font-display font-bold text-2xl text-navy mb-4">Sales Outsourcing</h3>
-                    <p class="text-gray-600 mb-8 flex-grow">Deploy our elite sales teams to act as a seamless extension of your brand.</p>
+                    <p class="text-gray-600 mb-8 flex-grow">Experienced and highly trained sales teams to act as a seamless extension of our client's operations</p>
                     <div class="w-full h-px bg-gray-100 mb-4 group-hover:bg-electric/20 transition-colors"></div>
                     <span class="font-mono text-sm font-bold text-electric uppercase tracking-wider flex items-center gap-2">
                         Learn More <i class="ph ph-arrow-right group-hover:translate-x-2 transition-transform"></i>
@@ -322,40 +337,40 @@
     <section id="industries" class="py-24 bg-surface">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto mb-16 gsap-fade-up">
-                <h2 class="font-display font-extrabold text-4xl md:text-5xl text-navy mb-6">Industries We Dominate</h2>
-                <p class="text-gray-600 text-lg">Cross-vertical expertise. We adapt our direct marketing frameworks to succeed in highly competitive sectors.</p>
+                <h2 class="font-display font-extrabold text-4xl md:text-5xl text-navy mb-6">Our Expertise</h2>
+                <p class="text-gray-600 text-lg">Premium meal kit operations, from fresh sourcing to scalable subscription execution for Canada’s leading brands.</p>
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-8">
-                <!-- Industry -->
+                <!-- Expertise -->
                 <div class="gsap-fade-up bg-offwhite border border-gray-100 p-8 text-center hover:border-electric transition-colors group">
-                    <i class="ph ph-broadcast text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
-                    <h4 class="font-display font-bold text-lg text-navy">Telecommunications</h4>
+                    <i class="ph ph-leaf text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
+                    <h4 class="font-display font-bold text-lg text-navy">Fresh, locally sourced ingredients</h4>
                 </div>
-                <!-- Industry -->
+                <!-- Expertise -->
                 <div class="gsap-fade-up bg-offwhite border border-gray-100 p-8 text-center hover:border-electric transition-colors group">
-                    <i class="ph ph-plug text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
-                    <h4 class="font-display font-bold text-lg text-navy">Energy</h4>
+                    <i class="ph ph-calendar text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
+                    <h4 class="font-display font-bold text-lg text-navy">150+ seasonal recipes every week</h4>
                 </div>
-                <!-- Industry -->
+                <!-- Expertise -->
                 <div class="gsap-fade-up bg-offwhite border border-gray-100 p-8 text-center hover:border-electric transition-colors group">
-                    <i class="ph ph-shopping-bag text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
-                    <h4 class="font-display font-bold text-lg text-navy">Retail</h4>
+                    <i class="ph ph-arrows-clockwise text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
+                    <h4 class="font-display font-bold text-lg text-navy">Flexible subscription plans</h4>
                 </div>
-                <!-- Industry -->
+                <!-- Expertise -->
                 <div class="gsap-fade-up bg-offwhite border border-gray-100 p-8 text-center hover:border-electric transition-colors group">
-                    <i class="ph ph-heart text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
-                    <h4 class="font-display font-bold text-lg text-navy">Non-Profit</h4>
+                    <i class="ph ph-gear text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
+                    <h4 class="font-display font-bold text-lg text-navy">Personalized customization</h4>
                 </div>
-                <!-- Industry -->
+                <!-- Expertise -->
                 <div class="gsap-fade-up bg-offwhite border border-gray-100 p-8 text-center hover:border-electric transition-colors group">
-                    <i class="ph ph-house text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
-                    <h4 class="font-display font-bold text-lg text-navy">Home Services</h4>
+                    <i class="ph ph-fork-knife text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
+                    <h4 class="font-display font-bold text-lg text-navy">Ready-to-eat and ready-to-cook options</h4>
                 </div>
-                <!-- Industry -->
+                <!-- Expertise -->
                 <div class="gsap-fade-up bg-offwhite border border-gray-100 p-8 text-center hover:border-electric transition-colors group">
-                    <i class="ph ph-tag text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
-                    <h4 class="font-display font-bold text-lg text-navy">Consumer Brands</h4>
+                    <i class="ph ph-megaphone text-3xl text-navy mb-4 group-hover:text-electric transition-colors block"></i>
+                    <h4 class="font-display font-bold text-lg text-navy">Widespread brand awareness growth</h4>
                 </div>
             </div>
         </div>
@@ -396,9 +411,9 @@
                     </ul>
 
                     <div class="pt-6">
-                        <a href="#contact" class="btn-primary inline-flex bg-gold text-navy px-10 py-5 font-display font-extrabold uppercase tracking-widest text-sm hover:bg-yellow-500 transition-colors">
-                            Apply Now
-                        </a>
+                    <a href="apply.html" class="btn-primary inline-flex bg-gold text-navy px-10 py-5 font-display font-extrabold uppercase tracking-widest text-sm hover:bg-yellow-500 transition-colors">
+                        Apply Now
+                    </a>
                     </div>
                 </div>
 
@@ -445,7 +460,7 @@
                     <img src="https://images.unsplash.com/photo-1558403194-611308249627?q=80&w=2670&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-700" alt="Training">
                     <div class="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/20 to-transparent"></div>
                     <div class="absolute bottom-4 left-4">
-                        <h4 class="text-white font-display font-bold text-sm">Leadership Training</h4>
+                        <h4 class="text-white font-display font-bold text-sm">Sales Training</h4>
                     </div>
                 </div>
 
@@ -455,45 +470,6 @@
                     <div class="absolute bottom-6 left-6">
                         <span class="text-electric font-mono text-xs uppercase font-bold tracking-wider mb-1 block">Culture</span>
                         <h4 class="text-white font-display font-bold text-xl">Team Retreats</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 8. Testimonials -->
-    <section class="py-24 bg-offwhite border-t border-gray-200">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 class="font-display font-extrabold text-4xl text-navy mb-12 text-center gsap-fade-up">Voices of Caelink</h2>
-            
-            <div class="grid md:grid-cols-2 gap-8">
-                <!-- Client Testimonial -->
-                <div class="gsap-fade-up bg-surface p-10 border border-gray-100 shadow-premium">
-                    <div class="flex gap-1 text-gold mb-6">
-                        <i class="ph-fill ph-star text-xl"></i><i class="ph-fill ph-star text-xl"></i><i class="ph-fill ph-star text-xl"></i><i class="ph-fill ph-star text-xl"></i><i class="ph-fill ph-star text-xl"></i>
-                    </div>
-                    <p class="text-gray-700 text-lg mb-8 italic">"Caelink completely revolutionized our local acquisition strategy. Their team's energy is unmatched, and they hit our yearly targets in just 6 months."</p>
-                    <div class="flex items-center gap-4">
-                        <div class="w-12 h-12 bg-navy-light rounded-full flex items-center justify-center text-white font-display font-bold">M</div>
-                        <div>
-                            <h4 class="font-display font-bold text-navy">Mark T.</h4>
-                            <p class="text-sm text-gray-500 font-mono">VP of Sales, Telecom Partner</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Employee Testimonial -->
-                <div class="gsap-fade-up bg-surface p-10 border border-gray-100 shadow-premium">
-                    <div class="flex gap-1 text-gold mb-6">
-                        <i class="ph-fill ph-star text-xl"></i><i class="ph-fill ph-star text-xl"></i><i class="ph-fill ph-star text-xl"></i><i class="ph-fill ph-star text-xl"></i><i class="ph-fill ph-star text-xl"></i>
-                    </div>
-                    <p class="text-gray-700 text-lg mb-8 italic">"I started at entry-level and within a year I was managing my own campaign. The mentorship and aggressive promotion structure here is real."</p>
-                    <div class="flex items-center gap-4">
-                        <div class="w-12 h-12 bg-electric rounded-full flex items-center justify-center text-white font-display font-bold">S</div>
-                        <div>
-                            <h4 class="font-display font-bold text-navy">Sarah K.</h4>
-                            <p class="text-sm text-gray-500 font-mono">Campaign Manager</p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -510,12 +486,12 @@
             <p class="text-xl text-gray-400 mb-12 font-medium">Whether you're a business looking to scale or a professional ready to accelerate your career, the time to act is now.</p>
             
             <div class="flex flex-col sm:flex-row justify-center gap-6">
-                <button class="btn-primary bg-electric text-white px-10 py-5 font-display font-bold uppercase tracking-wider hover:bg-blue-600">
-                    Book Consultation
-                </button>
-                <button class="px-10 py-5 border-2 border-white text-white font-display font-bold uppercase tracking-wider hover:bg-white hover:text-navy transition-all">
-                    Join Our Team
-                </button>
+                    <a href="consultation.html" class="btn-primary bg-electric text-white px-8 py-4 font-display font-bold uppercase tracking-wider text-sm flex items-center justify-center gap-2 hover:bg-blue-600">
+                        Book a Consultation
+                    </a>
+            <a href="apply.html" class="px-8 py-4 border border-white text-white font-display font-bold uppercase tracking-wider text-sm flex items-center justify-center hover:bg-white hover:text-navy transition-all">
+                Join Our Team
+            </a>
             </div>
         </div>
     </section>
@@ -546,7 +522,7 @@
                     <ul class="space-y-3">
                         <li><a href="#about" class="text-gray-400 hover:text-white transition-colors text-sm">About Us</a></li>
                         <li><a href="#services" class="text-gray-400 hover:text-white transition-colors text-sm">Our Services</a></li>
-                        <li><a href="#industries" class="text-gray-400 hover:text-white transition-colors text-sm">Industries</a></li>
+                        <li><a href="#industries" class="text-gray-400 hover:text-white transition-colors text-sm">Our Expertise</a></li>
                         <li><a href="#careers" class="text-gray-400 hover:text-electric transition-colors text-sm font-bold">Careers</a></li>
                     </ul>
                 </div>
@@ -568,15 +544,15 @@
                     <ul class="space-y-4">
                         <li class="flex items-start gap-3 text-gray-400 text-sm">
                             <i class="ph-fill ph-envelope text-electric text-lg mt-0.5"></i>
-                            <a href="mailto:growth@caelink.com" class="hover:text-white transition-colors">growth@caelink.com</a>
+                            <a href="mailto:info@caelinkconsulting.ca" class="hover:text-white transition-colors">info@caelinkconsulting.ca</a>
                         </li>
                         <li class="flex items-start gap-3 text-gray-400 text-sm">
                             <i class="ph-fill ph-phone text-electric text-lg mt-0.5"></i>
-                            <a href="tel:+15551234567" class="hover:text-white transition-colors">+1 (555) 123-4567</a>
+                            <a href="tel:+15551234567" class="hover:text-white transition-colors">+1 (825) 640-2060</a>
                         </li>
                         <li class="flex items-start gap-3 text-gray-400 text-sm">
                             <i class="ph-fill ph-map-pin text-electric text-lg mt-0.5"></i>
-                            <span>Corporate HQ<br>Downtown District</span>
+                            <span>408-9707 110 St NW,<br>Edmonton, AB T5K 2L9</span>
                         </li>
                     </ul>
                 </div>
@@ -584,7 +560,7 @@
             </div>
 
             <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p class="text-gray-500 text-sm font-mono">© 2026 Caelink Consulting. All rights reserved.</p>
+                <p class="text-gray-500 text-sm font-mono">&copy; 2026 Caelink Consulting. All rights reserved.</p>
                 <div class="flex gap-6 text-sm text-gray-500 font-mono">
                     <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
                     <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
@@ -592,12 +568,13 @@
             </div>
         </div>
     </footer>
-
     <!-- GSAP & ScrollTrigger -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     
     <script>
+
+        
         // Initialize GSAP
         gsap.registerPlugin(ScrollTrigger);
 
@@ -762,6 +739,7 @@ sections.forEach(section => sectionObserver.observe(section));
             sliderPrevBtn.addEventListener('click', () => scrollSlider(-1));
             sliderNextBtn.addEventListener('click', () => scrollSlider(1));
         }
+
     </script>
 </body>
 </html>
